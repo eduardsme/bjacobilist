@@ -1,6 +1,6 @@
 //v3.4 Add popup describing app when visitors load webpage the first time
 window.onload = function() {
-    alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Brynn Jacobi\ns0494581@student.rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
+    alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
     populateshoppinglistonload();
     displayShoppinglists();
     clearFocus();
@@ -24,7 +24,7 @@ function get(name){
 //ShareList passbyvalues Week 14
 function passlist()
 {
- var url = "https://bjacobilist.github.io/bjacobilist/index.html?list="+ shoppinglist;
+ var url = "https://rvclist.github.io/rvclist14/index.html?list="+ shoppinglist;
  //Week 14 add link to sharelist id
       document.getElementById("sharelist").innerHTML = 'Share List:\n' + url;
  //Copy URL
@@ -51,7 +51,7 @@ function copyToClipboard(text) {
 
 function about()
 {
-    alert("Welcome to 'Shopping List' App!\n\nCreated by Brynn Jacobi\n**Javascript(Web233) Student**\n\nQuestions?\nemail Brynn Jacobi\ns0494581@student.rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
+    alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
     
 }
 //read cookie and return
