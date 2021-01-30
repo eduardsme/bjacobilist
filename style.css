@@ -6,9 +6,10 @@ body {
 }
 
 label {
-     float:right;
+    float:left;
     padding-right: 15px;
     text-indent: 5px;
+    color: #0e4dfc
 }
 
 #wrapper {
