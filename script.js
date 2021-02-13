@@ -242,7 +242,7 @@ var arrays = shoppinglist[i];
 arrays = "'"+arrays+"'";
 var btnaddcart =  '<input name="add" type="checkbox" id="adds" value="Add to Shopping Cart" onclick="addtoshopcart('+arrays+','+ i +')" />';
 //Week 14 Add Share Button
-var btnsharelist = '<input class="button" id="shares" name="shares" type="submit" value="Share Shopping List" onclick="share()" />';
+var btnsharelist = '<input class="button" id="shares" name="shares" type="submit" value="Share List" onclick="share()" />';
 TheRow = '<li>' + shoppinglist[i] + btndelete + ' '  + btnaddcart + '</li>';
 TheList += TheRow;
 }
@@ -258,6 +258,7 @@ if (arrayLength > 0)
 //Week 14 Remove Share Button and Sharelist if arraylist contains values 
   document.getElementById("sharebutton").innerHTML = ' ';
     document.getElementById("sharelist").innerHTML = ' ';
+    document.write("Yay! Nothing to do!");
 }
 }
 
