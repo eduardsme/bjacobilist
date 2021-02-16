@@ -258,8 +258,7 @@ if (arrayLength > 0)
 //Week 14 Remove Share Button and Sharelist if arraylist contains values 
   document.getElementById("sharebutton").innerHTML = ' ';
     document.getElementById("sharelist").innerHTML = ' ';
-    document.write("Yay! Nothing to do!");
-}
+    }
 }
 
 //v3.1
