@@ -284,8 +284,8 @@ if (arrayLength > 0)
   document.getElementById("labels").innerHTML = 'Completed';
   document.getElementById("MyCart").innerHTML = '<ul>' + TheList + '</ul>';
 }else{
-  document.getElementById("labels").innerHTML = 'Yay! Nothing to do!';
-  document.getElementById("MyCart").innerHTML = '';
+  document.getElementById("labels").innerHTML = '';
+  document.getElementById("MyCart").innerHTML = 'Nothing to do!';
     
 }
 }
