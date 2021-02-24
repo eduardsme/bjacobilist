@@ -286,7 +286,7 @@ if (arrayLength > 0)
 }else{
   document.getElementById("labels").innerHTML = '';
   document.getElementById("MyCart").innerHTML = '';
-  document.getElementById("Empty").innerHTML = 'Yay! Nothing to do!';
+  //document.getElementById("Empty").innerHTML = 'Yay! Nothing to do!';
     
 }
 }
